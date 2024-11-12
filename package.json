@@ -1,0 +1,33 @@
+{
+"name": "oms-flexible-table",
+  "version": "1.0.1",
+  "description": "A flexible table editor component for React.",
+  "main": "dist/bundle.js",
+  "module": "dist/bundle.js",
+  "types": "dist/index.d.ts",   
+  "keywords": [
+    "table",
+    "editor",
+    "react",
+    "npm",
+    "flexible"
+  ],
+  "scripts": {
+       "build": "webpack --config webpack.config.js",
+    "start": "npm run build"
+  },
+
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
